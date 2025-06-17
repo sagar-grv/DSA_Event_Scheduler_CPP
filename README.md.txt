@@ -16,3 +16,39 @@ A C++ project implementing a priority-based event scheduler with user login and 
 ```bash
 g++ Finallization.cpp -o scheduler
 ./scheduler
+
+## 📁 Files
+- Finallization.cpp — Main source file
+- users.txt — Stores registered usernames and passwords (plain text)
+
+## 📷 Sample Output
+
+--- User Login Interface ---
+1. Register
+2. Login
+3. Exit
+Enter your choice: 1
+Enter new username: admin
+Enter new password: 123
+User registered successfully!
+
+
+## 📚 Concepts Covered
+- Priority Queue
+- File Handling
+- Classes and Objects
+- STL (queue, map)
+- Input validation
+
+
+
+## 📌 Note
+- Users are stored in users.txt.
+- Priorities: Lower numbers mean higher priority.
+
+
+
+## 👨‍💻 Author
+- Sagar Gurav
+
+
